@@ -1,0 +1,117 @@
+*{
+    /*border: solid 2px black;*/
+}
+
+html,body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.lamp{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.lamp img{
+    position: relative;
+    right: -79%;
+    top: -10%;
+    
+}
+
+
+.scrollbtn{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -moz-transform:rotate(-20deg);
+    -webkit-transform:rotate(-20deg);
+    -o-transform:rotate(-20deg);
+    -ms-transform:rotate(-20deg);
+    transform:rotate(-20deg);
+}
+
+.scrollbtn img{
+    top: 10%;
+    left: 3%;
+    position: relative;
+    z-index: 8;
+    transform: scale(0.5);
+    transition: 0.5s
+}
+
+.scrollbtn img:hover{
+    transform: scale(0.65);
+}
+
+.scroll{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.l-pic-index{
+    position: absolute;
+    right: 50%;
+    z-index:2;
+    width: 7%;
+    height:100%;
+    background: url("scroll-1.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.r-pic-index{
+    position: absolute;
+    left: 50%;
+    z-index: 2;
+    width: 7%;
+    height:100%;
+    background: url("scroll-4.png") no-repeat center;
+    background-size: 100% 100%;
+
+}
+.l-bg-index{
+    position: absolute;
+    right: 50%;
+    z-index: 1;
+    /*width: 200px;*/
+    height:100%;
+    background: url("scroll-2.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.r-bg-index{
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    /*width: 20px;*/
+    height: 100%;
+    background: url("scroll-3.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.main-index{
+    border: solid 2px black;
+    display: none;
+    overflow: hidden;
+    zoom:1;
+    position: absolute;
+    z-index: 5;
+    width:85.75%;
+    height:72%;
+    left:7%;
+    top:14.75%;
+}
+
+
+
+
+
+
+
+
+
+
+
