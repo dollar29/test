@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     $(".scrollbtn img").click(function(){
       $(".scrollbtn img").fadeOut(1700);
@@ -12,3 +11,16 @@ $(document).ready(function(){
       });
     });
   });
+/*
+function Switch() {
+    //var type = document.body.className;
+    var bodyElement = document.body.className;
+    var afterStyle = window.getComputedStyle(bodyElement, ":after");
+    var type = afterStyle;
+    if (type == "light") {
+document.body.className = "dark";
+    } else {
+document.body.className = "light";
+    }
+}
+*/
